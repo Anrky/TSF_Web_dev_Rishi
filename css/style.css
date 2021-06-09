@@ -175,6 +175,18 @@ header .navbar .cta-btn a:hover {
   font-weight: 900;
   font-size: 26px;
 }
+@media (min-width: 768px){
+  .donate .info {
+  background-color: white;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #007bff;
+  font-weight: 900;
+  font-size: 16px;
+}
+}
 .donate .success {
   background-color: white;
   margin: 0 auto;
