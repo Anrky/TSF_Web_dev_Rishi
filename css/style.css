@@ -67,7 +67,15 @@ a:hover {
   background-position: center center;
   background-repeat: no-repeat;
 }
-
+@media (max-width: 768px) {
+  .hero {
+    height: 83vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
 /* Header */
 header {
   position: absolute;
@@ -159,7 +167,7 @@ header .navbar .cta-btn a:hover {
 }
 @media (max-width: 768px) {
   .donate {
-    padding-top: 220px;
+    padding-top: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
