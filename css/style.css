@@ -167,7 +167,7 @@ header .navbar .cta-btn a:hover {
 }
 @media (max-width: 768px) {
   .donate {
-    padding-top: 250px;
+    padding-top: 225px;
     display: flex;
     align-items: center;
     justify-content: center;
